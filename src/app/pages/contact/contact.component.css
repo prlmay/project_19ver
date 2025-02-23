@@ -1,0 +1,86 @@
+.custom-nav-style {
+  box-shadow: 0px -8px 52px 0px rgba(245, 245, 245, 0.17);
+  background: rgb(30, 12, 6);
+  border-radius: 0px 0px 79px 79px;
+}
+.fl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main {
+  margin-top: 180px;
+  margin-bottom: 291px;
+}
+.container {
+  width: 98%;
+  padding-left: 180px;
+}
+.cont {
+  width: 521px;
+  height: 463px;
+}
+h1 {
+  width: 479px;
+  height: 120px;
+  color: rgb(245, 245, 245);
+  font-style: normal;
+  font-family: 'KyivType Sans Medium';
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 132.9%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 141px 118px 0 ;
+}
+/* h1 + img {
+  width: 39px;
+  height: 39px;
+  background: rgb(245, 245, 245);
+} */
+.cell {
+  width: 344px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.cell > img {
+  width: 39px;
+  height: 39px;
+  margin-right: 14px;
+}
+.cell  a {
+  color: rgb(245, 245, 245);
+  font-style: normal;
+  font-family: 'Inter 18pt';
+  font-size: 30px;
+  font-weight: 500;
+}
+.geo {
+  display: flex;
+  align-items: center;
+}
+.geo > img{
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+.geo address {
+  width: 377px;
+  height: 84px;
+  color: rgb(245, 245, 245);
+  font-style: normal;
+  font-family: 'Inter 18pt';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 139.4%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.map img {
+  width: 493px;
+  height: 428px;
+  border-radius: 42px;
+  margin-top: 24px;
+}
+  

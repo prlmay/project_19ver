@@ -1,0 +1,453 @@
+.secBlock {
+    margin: 161px 0 109px 0;
+}
+.secBlock h2 {
+    margin-left: 463px;
+    margin-bottom: 45px;
+    color: rgb(245, 245, 245);
+    font-family: 'KyivType Sans Medium';
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 132.9%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 904px;
+    height: 120px;
+}
+.secBlock .fl {
+    justify-content: space-evenly;
+}
+.secBlock form {
+    width: 598px;
+    height: 555px;
+}
+.secBlock form input {
+    color: rgba(217, 217, 217, 0.51);
+    font-family: 'Inter 18pt';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 139.4%;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 4px solid rgb(114, 139, 173);
+    border-radius: 42px;
+    padding: 18px 0 17px 47px; 
+    margin: 0 0 23px 0;
+}
+.secBlock form input::placeholder{
+    color: rgba(217, 217, 217, 0.51);
+    font-family: 'Inter 18pt';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 139.4%;
+    letter-spacing: 0%;
+    text-align: left;
+    /* box-sizing: border-box;
+    border: 4px solid rgb(114, 139, 173);
+    border-radius: 42px; 
+    padding: 18px 0 17px 47px;     */
+}
+.secBlock form input:nth-child(1),
+.secBlock form input:nth-child(2) {
+    width: 598px;
+    height: 77px;
+    background-color: #22202000;  
+}
+.secBlock form textarea {
+    width: 598px;
+    height: 257px;
+    box-sizing: border-box;
+    border: 4px solid rgb(114, 139, 173);
+    border-radius: 42px;
+    padding: 18px 0 0 47px;   
+    background-color: #22202000;   
+}
+.secBlock form textarea::placeholder {
+    color: rgba(217, 217, 217, 0.51);
+    font-family: 'Inter 18pt';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 139.4%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 198px;
+    height: 42px;
+}
+.secBlock form button {
+    color: rgb(245, 245, 245);
+    font-family: 'Inter 18pt';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 70px 11px 70px;
+    width: 216px;
+    height: 58px;
+    border-radius: 42px;
+    background: rgb(114, 139, 173);
+    margin-top: 40px;
+}
+.secBlock form + div > p {
+    color: rgb(245, 245, 245);
+    font-family: 'Inter 18pt';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 139.4%;
+    letter-spacing: 0%;
+    text-align: right;
+    width: 530px;
+    height: 126px;
+}
+.secBlock form + div img {
+    margin: 209px 0 0 54px;
+    width: 477.31px;
+    height: 482.47px;
+    position: absolute;
+}
+@media screen and (max-width: 1400px) {
+    .secBlock h2 {
+        margin-left: 393px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 1262px) {
+    .secBlock h2  {
+        font-size: 77px;
+    }
+    .secBlock h2 {
+        font-size: 87px;
+    }
+}
+@media screen and (max-width: 1234px) {
+    .secBlock h2 {
+        margin-left: 344px;
+    }
+    .secBlock form input:nth-child(1),
+    .secBlock form input:nth-child(2),
+    .secBlock form textarea {
+        width: 548px;
+    }
+}
+@media screen and (max-width: 1197px) {
+    .secBlock h2 {
+        font-size: 72px;
+    }
+}
+@media screen and (max-width: 1157px) {
+    .secBlock form input:nth-child(1),
+    .secBlock form input:nth-child(2), 
+    .secBlock form textarea {
+        width: 451px;
+    }
+    .secBlock form {
+        width: 473px;
+    }
+}
+@media screen and (max-width: 1104px) {
+    .secBlock h2 {
+        font-size: 69px;
+        width: 697px;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .secBlock h2 {
+        font-size: 62px;
+        width: 636px;
+    }
+    .secBlock form + div > p {
+        width: 508px;
+    }
+    .secBlock form {
+        width: 407px;
+    }
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2), 
+    .secBlock form textarea {
+        width: 409px;
+    }
+}
+@media screen and (max-width: 983px) {
+    .secBlock h2 {
+        font-size: 60px;
+        width: 606px;
+    }
+    .secBlock form input:nth-child(1),
+    .secBlock form input:nth-child(2) {
+        width: 391px;
+        height: 70px;
+        font-size: 24px;
+    }
+    .secBlock form textarea {
+        width: 391px;
+    }
+    .secBlock form input:nth-child(1)::placeholder,
+    .secBlock form input:nth-child(2)::placeholder, 
+    .secBlock form textarea::placeholder {
+        font-size: 24px;
+    }
+    .secBlock form + div > p {
+        width: 491px;
+    }
+    .secBlock form + div img {
+        margin: 235px 0 0 0;
+        width: 450px;
+        height: 405px;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 940px) {
+    .secBlock h2 {
+        font-size: 57px;
+        width: 579px;
+        margin-left: 319px;
+    }
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2) {
+        width: 365px;
+        height: 56px;
+        font-size: 20px;
+        padding: 11px 0 11px 26px
+    }
+    .secBlock form textarea{
+        width: 365px;
+    }
+    .secBlock form input:nth-child(1)::placeholder, 
+    .secBlock form input:nth-child(2)::placeholder, 
+    .secBlock form textarea::placeholder {
+        font-size: 20px;
+    }
+    .secBlock form + div > p {
+        font-size: 27px;
+        width: 435px;
+        height: 161px;
+    }
+    .secBlock form + div img {
+        margin: 230px 0 0 0;
+        width: 412px;
+        height: 395px;
+    }
+}
+@media screen and (max-width: 933px) {
+    .secBlock {
+        margin: 156px 0 104px 0;
+    }
+}
+@media screen and (max-width: 898px) {
+    .secBlock {
+        margin: 115px 0 0 0;
+    }
+    .secBlock h2 {
+        font-size: 54px;
+        width: 542px;
+        margin-left: 313px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .secBlock form + div > p {
+        font-size: 26px;
+        width: 360px;
+        height: 185px;
+    }
+    .secBlock form + div img {
+        margin: 119px 0 0 0;
+        width: 373px;
+    }
+}
+@media screen and (max-width: 848px) {
+    .secBlock h2 {
+        font-size: 50px;
+        width: 477px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .secBlock form + div img {
+        width: 360px;
+    }
+}
+@media screen and (max-width: 805px) {
+    .secBlock h2 {
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width: 782px) {
+    .secBlock form {
+        width: 340px;
+    }
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2) {
+        width: 326px;
+        height: 51px;
+        font-size: 16px;
+        padding: 8px 0 8px 20px;
+    }
+    .secBlock form textarea {
+        width: 326px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .secBlock form input:nth-child(1)::placeholder, 
+    .secBlock form input:nth-child(2)::placeholder,
+    textarea::placeholder {
+        font-size: 16px;
+    }
+    .secBlock form button {
+        font-size: 28px;
+        padding: 8px 28px 8px 28px;
+        width: 170px;
+        height: 50px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .secBlock h2 {
+        margin-left: 210px;
+    }
+    .secBlock form {
+        width: 305px;
+    }
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2) {
+        width: 285px;
+        height: 50px;
+        font-size: 16px;
+        padding: 8px 0 8px 20px;
+    }
+    .secBlock form textarea {
+        width: 285px;
+        height: 220px;
+    }
+    .secBlock form button {
+        font-size: 23px;
+        height: 56px;
+    }
+    .secBlock form + div > p {
+        font-size: 25px;
+        width: 335px;
+        height: 180px;
+    }
+    .secBlock form + div img {
+        margin: 135px 0 0 0;
+        width: 355px;
+    }
+}
+@media screen and (max-width: 710px) {
+    .secBlock form + div img {
+        margin: 155px 0 0 0;
+        width: 327px;
+        height: 340px;
+    }
+}
+@media screen and (max-width: 705px) {
+    .secBlock h2 {
+        margin-left: 105px;
+    }
+}
+@media screen and (max-width: 655px) {
+    .secBlock form + div > p {
+        width: 310px;
+    }
+    .secBlock form + div img {
+        width: 307px;
+        height: 329px;
+    }
+}
+@media screen and (max-width: 621px) {
+    .secBlock h2 {
+        margin-left: 50px;
+        font-size: 46px;
+        width: 455px;
+        height: 75px;
+    }
+    .secBlock .fl {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .secBlock form + div img {
+        margin: 0;
+        top: 2705px;
+        left: 283px;
+    }
+    .secBlock form + div > p {
+        width: 450px;
+        text-align: left;
+    }
+    .secBlock form {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .secBlock form input:nth-child(1),
+    .secBlock form input:nth-child(2) {
+        width: 475px;
+        height: 65px;
+        font-size: 17px;
+        padding: 12px 0 12px 20px;
+    }
+    .secBlock form textarea {
+        width: 475px;
+        font-size: 17px;
+        padding: 25px 0 0 28px
+    }
+    .secBlock form input:nth-child(1)::placeholder,
+    .secBlock form input:nth-child(2)::placeholder,
+    .secBlock form textarea::placeholder {
+        font-size: 17px;
+    } 
+}
+@media screen and (max-width: 615px) {
+    .secBlock form + div img {
+        top: 2650px;
+        left: 283px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .secBlock form + div img {
+        display: none;
+    }
+}
+@media screen and (max-width: 515px) {
+    .secBlock h2 {
+        margin-left: 15px;
+        font-size: 40px;
+        width: 415px;
+    }
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2),
+    .secBlock form textarea {
+        width: 442px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2), 
+    .secBlock form textarea {
+        width: 410px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .secBlock form + div > p {
+        width: 390px;
+        font-size: 24px;
+        height: 130px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .secBlock form {
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 445px) {
+    .secBlock h2 {
+        margin-bottom: 15px;
+        font-size: 38px;
+        width: 375px;
+    }
+    .secBlock form input:nth-child(1), 
+    .secBlock form input:nth-child(2), 
+    .secBlock form textarea {
+        width: 395px;
+    }
+}

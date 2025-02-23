@@ -1,0 +1,299 @@
+.custom-nav-style {
+    box-shadow: 0px -8px 52px 0px rgba(245, 245, 245, 0.17);
+    background: rgb(30, 12, 6);
+    border-radius: 0px 0px 79px 79px;
+  }
+  
+.fl {
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerBlock {
+    margin-top: 116px;
+}
+h1{
+    color: rgb(245, 245, 245);
+    font-family: 'KyivType Sans Medium';
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 132.9%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 232px;
+    margin-bottom: 116px;
+}
+.headerBlock .fl {
+    justify-content: center;
+}
+.price {
+    width: 1114.01px;
+    height: 844px;
+    border-radius: 42px;
+}
+.left{
+    width: 52.08px;
+    height: 50px;
+}
+.headerBlock .fl div {
+    margin-top: 352px;
+    text-align: center;
+}
+.headerBlock div.circles {
+    text-align: center;
+    margin-top: 67px;
+}
+.circles  img{
+    width: 26px;
+    height: 26px;
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 1400px) {
+    .price {
+        width: 83%;
+        height: auto;
+        border-radius: 42px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .price {
+        width: 1009px;
+        height: auto;
+    }
+    .headerBlock .fl div {
+        margin-top: 0;
+        text-align: center;
+    }
+    .headerBlock .fl {
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1262px) {
+    .price {
+        width: 987px;
+    }
+}
+@media screen and (max-width: 1215px) {
+    .price {
+        width: 936px;
+    }
+}
+@media screen and (max-width: 1157px) {
+    .price {
+        width: 872px;
+    }
+}
+@media screen and (max-width: 1088px) {
+    .headerBlock .fl div {
+        width: 75px !important;
+        height: 54px !important;
+    }
+    .price {
+        width: 828px;
+    }
+}
+@media screen and (max-width: 1041px) {
+    .price {
+        width: 742px;
+    }
+}
+@media screen and (max-width: 1001px) {
+    .price {
+        width: 675px;
+    }
+    .circles img {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 933px) {
+    .headerBlock {
+        margin-top: 155px;
+    }
+    .headerBlock h1 {
+        margin-bottom: 80px;
+        margin-left: 219px;  
+    }
+}
+@media screen and (max-width: 914px) {
+    .headerBlock h1  {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 898px) {
+    .circles img {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 841px) {
+    .price {
+        width: 605px;
+    }
+}
+@media screen and (max-width: 782px) {
+    .headerBlock .fl div {
+        width: 62px !important;
+        height: 45px !important;
+    }
+    .left {
+        width: 45px;
+        height: 45px;
+    }
+    .right {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .price {
+        width: 584px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .headerBlock h1 {
+        margin-bottom: 55px;
+        margin-left: 180px;
+        font-size: 75px;
+        width: 495px;
+    }
+}
+@media screen and (max-width: 748px){
+    .price {
+        width: 565px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .headerBlock {
+        margin-top: 120px;
+    }
+    .headerBlock h1 {
+        margin-bottom: 45px;
+        margin-left: 100px;
+        font-size: 66px;
+        width: 455px;
+        height: 100px;
+    }
+    .price {
+        width: 565px;
+    }
+    .circles img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 729px) {
+    .price {
+        width: 545px;
+    }
+}
+@media screen and (max-width: 710px) {
+    .price {
+        width: 485px;
+    }
+    .headerBlock div.circles {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 666px) {
+    .headerBlock div.circles {
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width: 647px) {
+    .price {
+        width: 423px;
+    }
+}
+@media screen and (max-width: 615px) {
+    .headerBlock .fl div {
+        width: 45px !important;
+        height: 35px !important;
+    }
+    .left {
+        width: 35px;
+        height: 35px;
+    }
+    .right {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 565px) {
+    .headerBlock h1 {
+        margin-left: 100px;
+        font-size: 60px;
+        width: 395px;
+    }
+}
+@media screen and (max-width: 535px) {
+    .headerBlock h1 {
+        margin-left: 95px;
+        font-size: 55px;
+        width: 335px;
+        margin-bottom: 25px;
+    }
+    .price {
+        width: 395px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .headerBlock h1 {
+        margin-left: 45px;
+        font-size: 50px;
+        width: 310px;
+        height: 75px;
+    }
+    .price {
+        width: 380px;
+    }
+    .circles img {
+        width: 13px;
+        height: 13px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .price {
+        width: 366px;
+    }
+    .headerBlock div.circles {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .price {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .price {
+        width: 340px;
+    }
+}
+@media screen and (max-width: 445px) {
+    .headerBlock .fl div {
+        width: 38px !important;
+        height: 28px !important;
+    }
+    .price {
+        width: 319px;
+    }
+    .left,.right {
+        width: 28px;
+        height: 28px;
+    }
+    .headerBlock div.circles {
+        margin-top: 13px;
+    }
+    .circles img {
+        width: 10px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,21 @@
+<section class="secBlock1">
+    <div class="container">
+        <h2>Any questions?</h2>
+        <div class="fl">
+            <form method="get" [formGroup]="profileForm" >
+                <input type="text" placeholder="Your name" name="name" formControlName="name">
+                <input type="tel" name="tell:" placeholder="Your telephone number" formControlName="tell">
+                <textarea style="resize: none;" name="question" placeholder="Your question" formControlName="question"></textarea>
+                <button type="submit" [disabled]="!profileForm.valid">Send</button>
+            </form>
+            <div>
+                <p>
+                    Write to us and we will be sure to answer 
+                    all your questions and give you a
+                    comprehensive consultation.
+                </p>
+                <img src="assets/image/about-main-last.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
